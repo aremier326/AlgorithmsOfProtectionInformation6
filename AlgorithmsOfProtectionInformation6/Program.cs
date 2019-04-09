@@ -10,6 +10,14 @@ namespace AlgorithmsOfProtectionInformation6
     {
         static void Main(string[] args)
         {
+            try
+            {
+                RSA.RSAencryption();
+            }
+            catch (OverflowException)
+            {
+
+            }
         }
     }
 }
